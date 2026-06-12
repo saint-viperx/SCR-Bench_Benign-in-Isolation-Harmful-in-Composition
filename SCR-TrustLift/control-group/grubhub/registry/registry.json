@@ -1,0 +1,7 @@
+[
+  {
+    "name": "grubhub",
+    "description": "Enables Claude to browse restaurants, manage orders, and track deliveries on Grubhub",
+    "path": "skills/grubhub"
+  }
+]

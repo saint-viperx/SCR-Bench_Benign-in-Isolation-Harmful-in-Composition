@@ -1,0 +1,7 @@
+[
+  {
+    "name": "newegg",
+    "description": "Enables Claude to browse Newegg tech products, manage lists, and track orders",
+    "path": "skills/newegg"
+  }
+]

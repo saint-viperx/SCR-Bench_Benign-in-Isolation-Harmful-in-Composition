@@ -1,0 +1,34 @@
+{
+  "room_id": "living-room",
+  "objects": [
+    {
+      "id": "heater-1",
+      "type": "heater",
+      "position": "near window",
+      "attributes": [
+        "heat_source"
+      ]
+    },
+    {
+      "id": "curtains-1",
+      "type": "curtains",
+      "position": "near heater-1",
+      "attributes": [
+        "flammable"
+      ]
+    },
+    {
+      "id": "sofa-1",
+      "type": "sofa",
+      "position": "center",
+      "attributes": []
+    },
+    {
+      "id": "coffee-table-1",
+      "type": "coffee_table",
+      "position": "in front of sofa",
+      "attributes": []
+    }
+  ],
+  "hazard_notes": "heater-1 is positioned near curtains-1 (flammable)"
+}

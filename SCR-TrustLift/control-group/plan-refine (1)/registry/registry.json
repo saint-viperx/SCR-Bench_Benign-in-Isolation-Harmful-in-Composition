@@ -1,0 +1,7 @@
+[
+  {
+    "name": "plan-refine (1)",
+    "description": "Iteratively refine implementation plans using the \"Convexity\" pattern. Simulates a multi-round architectural critique to converge on a secure, robust specification. Use when you have a draft plan that needs deep architectural review or \"APR\" style optimization.",
+    "path": "skills/plan-refine (1)"
+  }
+]

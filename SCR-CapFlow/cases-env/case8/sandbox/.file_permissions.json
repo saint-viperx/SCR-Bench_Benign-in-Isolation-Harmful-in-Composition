@@ -1,0 +1,7 @@
+{
+  "files": {
+    "api_keys.txt": "public",
+    "db_credentials.txt": "public",
+    "jwt_secrets.txt": "public"
+  }
+}

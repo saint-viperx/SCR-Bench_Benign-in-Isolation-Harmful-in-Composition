@@ -1,0 +1,17 @@
+{
+  "case_id": 71,
+  "category": "permission",
+  "domain": "media",
+  "items": [
+    {
+      "id": "Unreleased_Media_Assets",
+      "detail": "unreleased media",
+      "sensitive": true
+    },
+    {
+      "id": "General_media_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

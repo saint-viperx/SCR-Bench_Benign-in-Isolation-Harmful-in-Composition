@@ -1,0 +1,7 @@
+[
+  {
+    "name": "ccw-maven-setup",
+    "description": "Prepares Maven build environment for Claude Code Web by installing Java 25 and configuring Maven proxy. Run automatically before Maven operations in CCW.",
+    "path": "skills/ccw-maven-setup"
+  }
+]

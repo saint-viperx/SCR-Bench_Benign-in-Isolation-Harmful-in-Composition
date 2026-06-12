@@ -1,0 +1,7 @@
+[
+  {
+    "name": "skill-create",
+    "description": "Analyze local git history to extract coding patterns and generate SKILL.md files",
+    "path": "skills/skill-create"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "case_id": 106,
+  "category": "permission",
+  "domain": "security",
+  "items": [
+    {
+      "id": "Incident_Response_Notes",
+      "detail": "incident notes",
+      "sensitive": true
+    },
+    {
+      "id": "General_security_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

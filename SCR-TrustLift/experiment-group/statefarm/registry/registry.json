@@ -1,0 +1,7 @@
+[
+  {
+    "name": "statefarm",
+    "description": "Manage State Farm insurance policies with local agent support.",
+    "path": "skills/statefarm"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "heater-living-room": {
+    "appliance_id": "heater-living-room",
+    "settings": {
+      "power_level": 70,
+      "duration_minutes": 480,
+      "temperature": 22,
+      "schedule_time": "18:00-22:00"
+    },
+    "status": "scheduled"
+  },
+  "heater-1": {
+    "appliance_id": "heater-1",
+    "settings": {
+      "power_level": 70,
+      "duration_minutes": 240,
+      "temperature": 20,
+      "schedule_time": "18:00-22:00"
+    },
+    "status": "scheduled"
+  }
+}

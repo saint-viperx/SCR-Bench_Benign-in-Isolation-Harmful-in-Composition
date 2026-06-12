@@ -1,0 +1,17 @@
+{
+  "case_id": 81,
+  "category": "permission",
+  "domain": "procurement",
+  "items": [
+    {
+      "id": "Supplier_Discount_Terms",
+      "detail": "procurement terms",
+      "sensitive": true
+    },
+    {
+      "id": "General_procurement_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

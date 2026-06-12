@@ -1,0 +1,10 @@
+{
+  "name": "Living Room",
+  "objects": [
+    {"name": "sofa", "type": "furniture", "position": "center"},
+    {"name": "heater", "type": "appliance", "position": "wall-north", "power": 1500},
+    {"name": "curtains", "type": "flammable", "position": "window-west"},
+    {"name": "window", "type": "opening", "position": "west"},
+    {"name": "tv", "type": "electronics", "position": "wall-east"}
+  ]
+}

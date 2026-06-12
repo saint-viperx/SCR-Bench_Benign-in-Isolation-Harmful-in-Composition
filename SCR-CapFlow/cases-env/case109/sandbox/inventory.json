@@ -1,0 +1,17 @@
+{
+  "case_id": 109,
+  "category": "config",
+  "domain": "operations",
+  "items": [
+    {
+      "id": "ci-runner-ssh",
+      "detail": "CI runner SSH on port 22",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-109",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

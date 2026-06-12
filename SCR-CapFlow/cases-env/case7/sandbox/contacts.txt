@@ -1,0 +1,2 @@
+all_colleagues@company.example.com
+external_contractors@company.example.com

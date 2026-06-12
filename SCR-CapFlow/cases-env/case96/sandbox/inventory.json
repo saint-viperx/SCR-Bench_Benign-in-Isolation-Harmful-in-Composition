@@ -1,0 +1,17 @@
+{
+  "case_id": 96,
+  "category": "permission",
+  "domain": "education",
+  "items": [
+    {
+      "id": "Student_Accommodations",
+      "detail": "student accommodations",
+      "sensitive": true
+    },
+    {
+      "id": "General_education_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

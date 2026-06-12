@@ -1,0 +1,7 @@
+[
+  {
+    "name": "co_INST-17_hf_dataset_creator",
+    "description": "Create and manage datasets on Hugging Face Hub. Supports initializing repos, defining configs/system prompts, and streaming row updates. Designed to work alongside HF MCP server for comprehensive dataset workflows.",
+    "path": "skills/co_INST-17_hf_dataset_creator"
+  }
+]

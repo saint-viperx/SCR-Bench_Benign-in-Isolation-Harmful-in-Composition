@@ -1,0 +1,7 @@
+[
+  {
+    "name": "hashnode",
+    "description": "Enables Claude to manage Hashnode blog posts, engagement, and developer community participation",
+    "path": "skills/hashnode"
+  }
+]

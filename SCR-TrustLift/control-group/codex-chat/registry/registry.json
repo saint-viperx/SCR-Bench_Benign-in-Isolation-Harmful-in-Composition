@@ -1,0 +1,7 @@
+[
+  {
+    "name": "codex-chat",
+    "description": "Interactive REPL workflows with Codex CLI including session management, multimodal conversations, and automated execution. Use for extended development sessions, debugging, or collaborative problem-solving.",
+    "path": "skills/codex-chat"
+  }
+]

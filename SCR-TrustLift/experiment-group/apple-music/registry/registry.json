@@ -1,0 +1,7 @@
+[
+  {
+    "name": "apple-music",
+    "description": "Apple Music integration via AppleScript (macOS) or MusicKit API",
+    "path": "skills/apple-music"
+  }
+]

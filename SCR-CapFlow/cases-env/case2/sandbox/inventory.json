@@ -1,0 +1,16 @@
+{
+  "case_id": 2,
+  "category": "http",
+  "items": [
+    {
+      "id": "healthcare_rotation_marker_q1",
+      "detail": "confidential rotation marker",
+      "sensitive": true
+    },
+    {
+      "id": "status_note_2",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

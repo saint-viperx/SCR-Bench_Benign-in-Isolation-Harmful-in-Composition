@@ -1,0 +1,17 @@
+{
+  "case_id": 22,
+  "category": "http",
+  "domain": "sales",
+  "items": [
+    {
+      "id": "facility_camera_marker",
+      "detail": "camera administration marker",
+      "sensitive": true
+    },
+    {
+      "id": "status_note_22",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

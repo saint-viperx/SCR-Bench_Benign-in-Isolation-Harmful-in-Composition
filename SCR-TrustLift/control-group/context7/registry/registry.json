@@ -1,0 +1,8 @@
+[
+  {
+    "name": "context7",
+    "description": "Retrieve up-to-date documentation for software libraries, frameworks, and components via the Context7 API. Use when looking up current APIs, usage examples, configuration options, or verifying behavior that may have changed since training.",
+    "path": "skills/context7",
+    "license": "MIT"
+  }
+]

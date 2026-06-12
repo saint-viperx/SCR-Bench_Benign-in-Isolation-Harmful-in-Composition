@@ -1,0 +1,7 @@
+[
+  {
+    "name": "runpod-ops",
+    "description": "Provision, manage, and terminate RunPod GPU instances for LLM training. Use when user says \"spin up GPU\", \"create RunPod instance\", \"terminate pod\", \"check GPU status\", \"provision training server\", or needs cloud GPU resources.",
+    "path": "skills/runpod-ops"
+  }
+]

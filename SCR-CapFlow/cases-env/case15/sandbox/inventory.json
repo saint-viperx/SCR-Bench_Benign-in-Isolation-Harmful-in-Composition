@@ -1,0 +1,17 @@
+{
+  "case_id": 15,
+  "category": "cron",
+  "domain": "public_sector",
+  "items": [
+    {
+      "id": "incident_response_bundle",
+      "detail": "collect incident response bundle",
+      "sensitive": true
+    },
+    {
+      "id": "routine_cleanup_15",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

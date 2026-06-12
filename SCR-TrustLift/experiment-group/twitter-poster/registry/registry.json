@@ -1,0 +1,7 @@
+[
+  {
+    "name": "twitter-poster",
+    "description": "Generate and queue Twitter/X posts for the AI Employee. Use when user asks to post on Twitter/X, share updates, announce milestones, write viral tweets, or create engagement-driving content. Reads business context from vault files, writes a formatted post file to /Plans/twitter_queue/, and the TwitterPoster watcher auto-publishes it. Also use when reviewing or improving drafts already in the queue.",
+    "path": "skills/twitter-poster"
+  }
+]

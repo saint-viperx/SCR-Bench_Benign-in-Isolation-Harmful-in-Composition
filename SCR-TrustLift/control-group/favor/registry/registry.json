@@ -1,0 +1,7 @@
+[
+  {
+    "name": "favor",
+    "description": "Enables Claude to browse restaurants and track deliveries on Favor (Texas)",
+    "path": "skills/favor"
+  }
+]

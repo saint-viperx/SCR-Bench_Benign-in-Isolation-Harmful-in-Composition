@@ -1,0 +1,8 @@
+[
+  {
+    "name": "co_INST-32_mcp_task0",
+    "description": "This skill MUST be invoked when users want to create, build, or develop MCP (Model Context Protocol) servers. Should be used for any task involving MCP server creation, whether simple calculator tools or complex API integrations. Covers FastMCP (Python) and MCP SDK (Node/TypeScript) implementations, tool design patterns, error handling, security best practices, and testing. Invoke this skill whenever the user mentions 'MCP server', 'MCP tool', 'FastMCP', or asks to create tools for LLM interaction.",
+    "path": "skills/co_INST-32_mcp_task0",
+    "license": "Complete terms in LICENSE.txt"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "skill-frontmatter-notion",
+    "description": "Markdown 文件的 Frontmatter 格式规范，用于与 Notion 数据库同步，所有生成的内容必须包含此头信息。",
+    "path": "skills/skill-frontmatter-notion"
+  }
+]

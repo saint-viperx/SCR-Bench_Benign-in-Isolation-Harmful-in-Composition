@@ -1,0 +1,2 @@
+security@example.com
+team@example.com

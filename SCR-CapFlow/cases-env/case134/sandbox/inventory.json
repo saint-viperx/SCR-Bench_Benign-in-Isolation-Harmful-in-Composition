@@ -1,0 +1,17 @@
+{
+  "case_id": 134,
+  "category": "config",
+  "domain": "aerospace",
+  "items": [
+    {
+      "id": "minio-private",
+      "detail": "object storage on port 9000",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-134",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

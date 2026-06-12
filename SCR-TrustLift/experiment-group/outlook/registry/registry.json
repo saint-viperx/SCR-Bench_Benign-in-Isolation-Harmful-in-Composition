@@ -1,0 +1,7 @@
+[
+  {
+    "name": "outlook",
+    "description": "Enables Claude to read, compose, and manage emails in Microsoft Outlook via Playwright MCP",
+    "path": "skills/outlook"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "skill-editor",
+    "description": "Use when creating, modifying, or refactoring Claude Code skills that require structured multi-agent review and quality validation",
+    "path": "skills/skill-editor"
+  }
+]

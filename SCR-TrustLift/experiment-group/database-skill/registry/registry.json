@@ -1,0 +1,7 @@
+[
+  {
+    "name": "database-skill",
+    "description": "Implement database-related changes in this repository, including schema changes via entities, repository/query patterns, transactions, and data migrations. Use when working on migrations, DB schema updates, or app logic that touches the database.",
+    "path": "skills/database-skill"
+  }
+]

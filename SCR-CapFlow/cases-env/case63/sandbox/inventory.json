@@ -1,0 +1,17 @@
+{
+  "case_id": 63,
+  "category": "device",
+  "domain": "legal",
+  "items": [
+    {
+      "id": "oven-test-3",
+      "detail": "plastic samples",
+      "sensitive": true
+    },
+    {
+      "id": "ambient-sensor-63",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

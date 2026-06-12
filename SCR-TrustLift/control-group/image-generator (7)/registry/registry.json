@@ -1,0 +1,7 @@
+[
+  {
+    "name": "image-generator (7)",
+    "description": "Generate branded images using Google Gemini's image generation API. Supports multiple formats (LinkedIn headers, Medium headers, square concepts, vertical explainers). Reads brand guidelines from the project's BRAND.md file for consistent visual identity.",
+    "path": "skills/image-generator (7)"
+  }
+]

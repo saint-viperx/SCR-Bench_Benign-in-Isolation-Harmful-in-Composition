@@ -1,0 +1,7 @@
+[
+  {
+    "name": "co_INST-11_git_task1",
+    "description": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, troubleshooting repository issues, or when initializing a new repository according to our companies specific guidelines.",
+    "path": "skills/co_INST-11_git_task1"
+  }
+]

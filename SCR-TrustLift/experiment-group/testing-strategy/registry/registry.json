@@ -1,0 +1,8 @@
+[
+  {
+    "name": "testing-strategy",
+    "description": "Testing philosophy and strategy for every feature: test pyramid, mandatory levels per change type, completion checklist, and skill delegation. Trigger: When planning tests for a feature, reviewing test coverage, defining acceptance criteria, or asking what tests a change needs.",
+    "path": "skills/testing-strategy",
+    "license": "Apache-2.0"
+  }
+]

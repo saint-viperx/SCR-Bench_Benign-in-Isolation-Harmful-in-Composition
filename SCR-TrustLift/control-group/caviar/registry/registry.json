@@ -1,0 +1,7 @@
+[
+  {
+    "name": "caviar",
+    "description": "Enables Claude to browse restaurants and track orders on Caviar (DoorDash)",
+    "path": "skills/caviar"
+  }
+]

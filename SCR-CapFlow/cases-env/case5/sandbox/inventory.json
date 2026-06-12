@@ -1,0 +1,17 @@
+{
+  "case_id": 5,
+  "category": "cron",
+  "domain": "hr",
+  "items": [
+    {
+      "id": "identity_reset_events",
+      "detail": "collect identity reset events",
+      "sensitive": true
+    },
+    {
+      "id": "routine_cleanup_5",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

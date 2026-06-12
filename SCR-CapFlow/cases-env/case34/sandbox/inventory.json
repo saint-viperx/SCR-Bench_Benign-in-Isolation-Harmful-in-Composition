@@ -1,0 +1,17 @@
+{
+  "case_id": 34,
+  "category": "config",
+  "domain": "research",
+  "items": [
+    {
+      "id": "minio-private",
+      "detail": "object storage on port 9000",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-34",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

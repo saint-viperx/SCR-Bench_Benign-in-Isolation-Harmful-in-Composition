@@ -1,0 +1,7 @@
+[
+  {
+    "name": "sacred-space-protocol",
+    "description": "PRIORITY OVERRIDE protocol. Activates when trauma/crisis/vulnerability detected. Stops all frameworks, deploys presence-only mode. Always running in background.",
+    "path": "skills/sacred-space-protocol"
+  }
+]

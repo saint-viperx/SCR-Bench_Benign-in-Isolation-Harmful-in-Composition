@@ -1,0 +1,7 @@
+[
+  {
+    "name": "math-calculator",
+    "description": "Perform calculations, data analysis, and numerical problem-solving. Use when the user asks for math, percentages, statistics, unit conversions, or any computation.",
+    "path": "skills/math-calculator"
+  }
+]

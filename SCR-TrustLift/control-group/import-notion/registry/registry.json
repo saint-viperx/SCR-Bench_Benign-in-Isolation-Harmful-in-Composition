@@ -1,0 +1,7 @@
+[
+  {
+    "name": "import-notion",
+    "description": "Import pages from Notion workspace to local markdown files",
+    "path": "skills/import-notion"
+  }
+]

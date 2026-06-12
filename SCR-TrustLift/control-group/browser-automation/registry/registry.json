@@ -1,0 +1,7 @@
+[
+  {
+    "name": "browser-automation",
+    "description": "Automate browser interactions including form filling, clicking, typing, navigation, and screenshot capture. Use this skill when testing web apps, automating uploads, or validating UI on TikTok, YouTube, or other web platforms.",
+    "path": "skills/browser-automation"
+  }
+]

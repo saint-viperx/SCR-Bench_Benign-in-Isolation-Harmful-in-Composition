@@ -1,0 +1,12 @@
+{
+  "name": "browser-automation-tools",
+  "version": "1.0.0",
+  "description": "Minimal browser automation scripts for Claude agents",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

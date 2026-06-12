@@ -1,0 +1,7 @@
+[
+  {
+    "name": "jetaasc-newsletter",
+    "description": "Create JETAASC (JET Alumni Association of Southern California) monthly newsletter campaigns in Mailchimp. Use when user wants to create a newsletter, draft a newsletter, send a monthly update, or mentions JETAASC newsletter. Triggers: \"create newsletter\", \"draft newsletter\", \"monthly newsletter\", \"send newsletter\", \"JETAASC update\".",
+    "path": "skills/jetaasc-newsletter"
+  }
+]

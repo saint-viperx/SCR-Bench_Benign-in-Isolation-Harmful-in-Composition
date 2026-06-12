@@ -1,0 +1,8 @@
+[
+  {
+    "name": "co_INST-22_calendar_task1",
+    "description": "Calendar and scheduling management. Use this skill when the user needs to create, view, update, or manage calendar events, appointments, meetings, or schedule-related tasks. Supports ICS file format, recurring events, and timezone handling.",
+    "path": "skills/co_INST-22_calendar_task1",
+    "license": "Apache-2.0"
+  }
+]

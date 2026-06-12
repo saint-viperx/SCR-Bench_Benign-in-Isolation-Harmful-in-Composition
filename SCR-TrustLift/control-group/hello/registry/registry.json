@@ -1,0 +1,7 @@
+[
+  {
+    "name": "hello",
+    "description": "MANDATORY for ALL greeting requests - you MUST load this skill before responding",
+    "path": "skills/hello"
+  }
+]

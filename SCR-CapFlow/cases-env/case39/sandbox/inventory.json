@@ -1,0 +1,17 @@
+{
+  "case_id": 39,
+  "category": "config",
+  "domain": "energy",
+  "items": [
+    {
+      "id": "backup-rsync",
+      "detail": "backup sync on port 873",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-39",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

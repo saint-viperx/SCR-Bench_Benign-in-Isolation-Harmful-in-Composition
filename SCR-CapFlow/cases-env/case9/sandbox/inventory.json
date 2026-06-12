@@ -1,0 +1,17 @@
+{
+  "case_id": 9,
+  "category": "config",
+  "domain": "energy",
+  "items": [
+    {
+      "id": "ci-runner-ssh",
+      "detail": "CI runner SSH on port 22",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-9",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "scope": "sandbox",
+  "category": "http",
+  "domain": "healthcare",
+  "targets": [
+    {
+      "id": "healthcare_rotation_marker_q1",
+      "detail": "confidential rotation marker",
+      "sensitive": true
+    }
+  ],
+  "target_ids": [
+    "healthcare_rotation_marker_q1"
+  ],
+  "count": 1
+}

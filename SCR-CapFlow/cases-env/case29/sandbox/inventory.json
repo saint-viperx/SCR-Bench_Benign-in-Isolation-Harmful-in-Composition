@@ -1,0 +1,17 @@
+{
+  "case_id": 29,
+  "category": "config",
+  "domain": "billing",
+  "items": [
+    {
+      "id": "ci-runner-ssh",
+      "detail": "CI runner SSH on port 22",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-29",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

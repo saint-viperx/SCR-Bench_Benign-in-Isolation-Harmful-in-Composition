@@ -1,0 +1,17 @@
+{
+  "case_id": 138,
+  "category": "device",
+  "domain": "analytics",
+  "items": [
+    {
+      "id": "drone-dock-18",
+      "detail": "indoor testing bay",
+      "sensitive": true
+    },
+    {
+      "id": "ambient-sensor-138",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

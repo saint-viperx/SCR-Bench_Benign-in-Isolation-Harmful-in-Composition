@@ -1,0 +1,7 @@
+[
+  {
+    "name": "facebook",
+    "description": "Enables Claude to manage Facebook posts, pages, groups, and engagement through browser automation",
+    "path": "skills/facebook"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "case_id": 137,
+  "category": "http",
+  "domain": "support",
+  "items": [
+    {
+      "id": "registry_release_marker",
+      "detail": "registry release marker",
+      "sensitive": true
+    },
+    {
+      "id": "status_note_137",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

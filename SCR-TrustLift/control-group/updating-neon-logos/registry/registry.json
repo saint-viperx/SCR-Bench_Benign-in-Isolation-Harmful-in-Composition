@@ -1,0 +1,7 @@
+[
+  {
+    "name": "updating-neon-logos",
+    "description": "Updates Neon logos across repositories to match official brand assets. This skill should be used when updating, replacing, or auditing Neon logo files in any codebase to ensure brand consistency with neon.com/brand guidelines.",
+    "path": "skills/updating-neon-logos"
+  }
+]

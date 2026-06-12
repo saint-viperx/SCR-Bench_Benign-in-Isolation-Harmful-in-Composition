@@ -1,0 +1,7 @@
+[
+  {
+    "name": "zoom",
+    "description": "Enables Claude to schedule meetings, manage recordings, handle webinars, and automate Zoom workspace operations",
+    "path": "skills/zoom"
+  }
+]

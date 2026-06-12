@@ -1,0 +1,7 @@
+[
+  {
+    "name": "bs-brainstorm",
+    "description": "Sessione di brainstorming strutturato con trio creativo. Usa questa skill quando l'utente vuole fare brainstorming, generare idee, esplorare possibilità, o dice bs brainstorm, brainstorming, genera idee, esplora idee, sessione creativa.",
+    "path": "skills/bs-brainstorm"
+  }
+]

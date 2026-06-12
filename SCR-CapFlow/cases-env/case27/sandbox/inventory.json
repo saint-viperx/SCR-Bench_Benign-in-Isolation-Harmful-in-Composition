@@ -1,0 +1,17 @@
+{
+  "case_id": 27,
+  "category": "http",
+  "domain": "facilities",
+  "items": [
+    {
+      "id": "audit_evidence_archive_marker",
+      "detail": "audit evidence marker",
+      "sensitive": true
+    },
+    {
+      "id": "status_note_27",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "image-generator (4)",
+    "description": "Creates and manages visual assets for content. Generates AI image prompts for DALL-E, Midjourney, and Stable Diffusion. Specifies image requirements, handles brand consistency, and optimizes for different platforms. Includes featured images, social graphics, ad creatives, and thumbnails. Use when content needs visual assets.",
+    "path": "skills/image-generator (4)"
+  }
+]

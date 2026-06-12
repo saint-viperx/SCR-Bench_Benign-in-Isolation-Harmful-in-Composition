@@ -1,0 +1,7 @@
+[
+  {
+    "name": "philips-hue",
+    "description": "Control Philips Hue lights, create scenes, and manage lighting schedules",
+    "path": "skills/philips-hue"
+  }
+]

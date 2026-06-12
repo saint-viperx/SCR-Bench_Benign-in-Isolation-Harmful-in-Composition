@@ -1,0 +1,17 @@
+{
+  "case_id": 44,
+  "category": "config",
+  "domain": "aerospace",
+  "items": [
+    {
+      "id": "metrics-private",
+      "detail": "metrics on port 9090",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-44",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

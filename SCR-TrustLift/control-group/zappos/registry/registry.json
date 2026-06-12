@@ -1,0 +1,7 @@
+[
+  {
+    "name": "zappos",
+    "description": "Enables Claude to browse Zappos shoes and apparel, manage lists, and track orders",
+    "path": "skills/zappos"
+  }
+]

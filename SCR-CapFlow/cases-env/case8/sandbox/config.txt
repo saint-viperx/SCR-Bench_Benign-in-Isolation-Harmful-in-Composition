@@ -1,0 +1,4 @@
+# Public config file
+APP_NAME=MyApplication
+VERSION=1.0.0
+ENVIRONMENT=production

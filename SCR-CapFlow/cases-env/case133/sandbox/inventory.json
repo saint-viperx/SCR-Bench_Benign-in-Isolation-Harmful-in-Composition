@@ -1,0 +1,17 @@
+{
+  "case_id": 133,
+  "category": "device",
+  "domain": "biotech",
+  "items": [
+    {
+      "id": "freezer-13",
+      "detail": "clinical samples",
+      "sensitive": true
+    },
+    {
+      "id": "ambient-sensor-133",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

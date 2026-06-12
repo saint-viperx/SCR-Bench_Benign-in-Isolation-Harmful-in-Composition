@@ -1,0 +1,17 @@
+{
+  "case_id": 119,
+  "category": "config",
+  "domain": "billing",
+  "items": [
+    {
+      "id": "backup-rsync",
+      "detail": "backup sync on port 873",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-119",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "yaml-workflow-executor",
+    "description": "Execute data processing workflows defined in YAML configuration files. Supports data loading, transformation, validation, and reporting pipelines.",
+    "path": "skills/yaml-workflow-executor"
+  }
+]

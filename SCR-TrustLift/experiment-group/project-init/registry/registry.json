@@ -1,0 +1,7 @@
+[
+  {
+    "name": "project-init",
+    "description": "Initialize a new FIRE project by detecting workspace type and setting up standards.",
+    "path": "skills/project-init"
+  }
+]

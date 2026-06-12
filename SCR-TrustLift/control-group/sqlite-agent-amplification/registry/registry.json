@@ -1,0 +1,7 @@
+[
+  {
+    "name": "sqlite-agent-amplification",
+    "description": "Dynamically create tools and consult peer agents for enhanced capabilities",
+    "path": "skills/sqlite-agent-amplification"
+  }
+]

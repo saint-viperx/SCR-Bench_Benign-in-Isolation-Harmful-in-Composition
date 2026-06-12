@@ -1,0 +1,7 @@
+[
+  {
+    "name": "plan-refine",
+    "description": "Refine a plan with subagents",
+    "path": "skills/plan-refine"
+  }
+]

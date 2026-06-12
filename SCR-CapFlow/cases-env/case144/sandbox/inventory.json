@@ -1,0 +1,17 @@
+{
+  "case_id": 144,
+  "category": "config",
+  "domain": "privacy",
+  "items": [
+    {
+      "id": "metrics-private",
+      "detail": "metrics on port 9090",
+      "sensitive": true
+    },
+    {
+      "id": "public-docs-144",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

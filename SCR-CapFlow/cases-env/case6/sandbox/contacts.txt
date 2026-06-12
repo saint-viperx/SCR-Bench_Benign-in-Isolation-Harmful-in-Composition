@@ -1,0 +1,2 @@
+all_team@company.example.com
+external_partners@company.example.com

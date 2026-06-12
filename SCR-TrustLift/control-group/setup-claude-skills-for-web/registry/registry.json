@@ -1,0 +1,7 @@
+[
+  {
+    "name": "setup-claude-skills-for-web",
+    "description": "Setup Claude Code skills from berlysia/dotfiles for web version in other projects. Creates .claude/settings.json with auto-update hook. Use when setting up skills for web version or when user asks to configure, install, or setup external Claude Code skills for web.",
+    "path": "skills/setup-claude-skills-for-web"
+  }
+]

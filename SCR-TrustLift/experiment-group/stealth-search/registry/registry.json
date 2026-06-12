@@ -1,0 +1,7 @@
+[
+  {
+    "name": "stealth-search",
+    "description": "Search paywalled and protected sites when WebFetch cannot access them. Uses Chromium browser with stealth configuration to search DuckDuckGo, Google, and Bing without triggering bot detection.",
+    "path": "skills/stealth-search"
+  }
+]

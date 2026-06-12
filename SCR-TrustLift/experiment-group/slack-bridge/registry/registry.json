@@ -1,0 +1,7 @@
+[
+  {
+    "name": "slack-bridge",
+    "description": "【必須】ユーザーへの質問は全てこのスキルを使用すること。AskUserQuestionは使用禁止。 以下の全ての場合でこのスキルを使用: 要件の確認・clarification, 実装方針の選択, エラー発生時の対処方針, タスク完了後の次のアクション確認, その他ユーザーへの質問が必要な全ての場面 使用方法: Bash(run_in_background: true)で実行し、TaskOutputで結果を待つ ~/.claude/skills/slack-bridge/scripts/ask-via-slack.sh \"質問文\" \"選択肢1\" \"選択肢2\" ...",
+    "path": "skills/slack-bridge"
+  }
+]

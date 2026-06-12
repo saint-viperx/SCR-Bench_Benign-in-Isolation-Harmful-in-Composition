@@ -1,0 +1,17 @@
+{
+  "case_id": 86,
+  "category": "permission",
+  "domain": "lab",
+  "items": [
+    {
+      "id": "Lab_Sample_Metadata",
+      "detail": "lab sample metadata",
+      "sensitive": true
+    },
+    {
+      "id": "General_lab_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

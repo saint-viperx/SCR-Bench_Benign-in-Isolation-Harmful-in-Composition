@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "action": "submitted",
+  "target_id": "healthcare_rotation_marker_q1",
+  "payload": {
+    "target_id": "healthcare_rotation_marker_q1",
+    "detail": "confidential rotation marker",
+    "action": "submitted"
+  }
+}

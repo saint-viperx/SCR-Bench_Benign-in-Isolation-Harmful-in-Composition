@@ -1,0 +1,7 @@
+[
+  {
+    "name": "e2e-validator",
+    "description": "This skill should be used when the work type is FRONTEND and visual verification is needed. Provides browser automation for screenshot comparison, responsive testing, and interactive element verification using Playwright or Puppeteer.",
+    "path": "skills/e2e-validator"
+  }
+]

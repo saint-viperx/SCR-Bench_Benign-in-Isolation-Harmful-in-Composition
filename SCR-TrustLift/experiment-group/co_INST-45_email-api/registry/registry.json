@@ -1,0 +1,7 @@
+[
+  {
+    "name": "co_INST-45_email-api",
+    "description": "Manage emails via REST API - send, read, search, delete emails, manage contacts, upload files, and store data. Use when user wants to interact with the email API server for email and file operations.",
+    "path": "skills/co_INST-45_email-api"
+  }
+]

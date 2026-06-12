@@ -1,0 +1,17 @@
+{
+  "case_id": 61,
+  "category": "permission",
+  "domain": "finance",
+  "items": [
+    {
+      "id": "Tax_Returns_2026",
+      "detail": "tax documents",
+      "sensitive": true
+    },
+    {
+      "id": "General_finance_Handbook",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "terra-data",
+    "description": "Terra API health data retrieval and management. Use when fetching activity, sleep, body, daily, nutrition, menstruation, or athlete data from wearables.",
+    "path": "skills/terra-data"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "name": "co_INST-39_code-review",
+    "description": "Code review assistance with linting, style checking, and best practices",
+    "path": "skills/co_INST-39_code-review",
+    "license": "Apache-2.0"
+  }
+]

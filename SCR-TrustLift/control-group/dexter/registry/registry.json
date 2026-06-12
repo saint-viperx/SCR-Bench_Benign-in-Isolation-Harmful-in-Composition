@@ -1,0 +1,7 @@
+[
+  {
+    "name": "dexter",
+    "description": "Autonomous financial research agent for stock analysis, financial statements, metrics, prices, SEC filings, and crypto data.",
+    "path": "skills/dexter"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "upstash",
+    "description": "Manage serverless Redis, Kafka, and QStash on Upstash",
+    "path": "skills/upstash"
+  }
+]

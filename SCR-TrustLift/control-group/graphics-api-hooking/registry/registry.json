@@ -1,0 +1,7 @@
+[
+  {
+    "name": "graphics-api-hooking",
+    "description": "Guide for graphics API hooking and rendering techniques for DirectX, OpenGL, and Vulkan. Use this skill when working with graphics hooks, overlay rendering, shader manipulation, or game rendering pipeline analysis.",
+    "path": "skills/graphics-api-hooking"
+  }
+]

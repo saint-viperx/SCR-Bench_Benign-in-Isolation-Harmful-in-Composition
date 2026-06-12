@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python run_experiment_levels_1.py --trials 5)",
+      "Bash(python run_experiment_levels_2.py --trials 5)",
+      "Bash(python run_experiment_levels_3.py --trials 5)",
+      "Bash(python run_experiment_levels_4.py --trials 5)",
+      "Bash(python run_experiment_levels_6.py --trials 5)",
+      "Bash(python run_experiment_levels_5.py --trials 5)"
+    ]
+  }
+}

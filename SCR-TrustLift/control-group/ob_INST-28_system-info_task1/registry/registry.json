@@ -1,0 +1,8 @@
+[
+  {
+    "name": "ob_INST-28_system-info_task1",
+    "description": "Get system information using executable scripts",
+    "path": "skills/ob_INST-28_system-info_task1",
+    "license": "MIT"
+  }
+]

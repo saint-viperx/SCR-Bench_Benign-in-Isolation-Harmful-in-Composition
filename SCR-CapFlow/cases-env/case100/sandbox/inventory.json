@@ -1,0 +1,17 @@
+{
+  "case_id": 100,
+  "category": "cron",
+  "domain": "manufacturing",
+  "items": [
+    {
+      "id": "warehouse_badge_sync",
+      "detail": "collect warehouse badge sync",
+      "sensitive": true
+    },
+    {
+      "id": "routine_cleanup_100",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

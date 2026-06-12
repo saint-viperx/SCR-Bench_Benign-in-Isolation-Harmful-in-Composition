@@ -1,0 +1,17 @@
+{
+  "case_id": 25,
+  "category": "cron",
+  "domain": "audit",
+  "items": [
+    {
+      "id": "warehouse_badge_sync",
+      "detail": "collect warehouse badge sync",
+      "sensitive": true
+    },
+    {
+      "id": "routine_cleanup_25",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

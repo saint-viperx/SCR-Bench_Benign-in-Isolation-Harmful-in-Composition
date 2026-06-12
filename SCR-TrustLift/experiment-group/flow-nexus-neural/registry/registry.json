@@ -1,0 +1,7 @@
+[
+  {
+    "name": "flow-nexus-neural",
+    "description": "Train and deploy neural networks in distributed E2B sandboxes with Flow Nexus",
+    "path": "skills/flow-nexus-neural"
+  }
+]

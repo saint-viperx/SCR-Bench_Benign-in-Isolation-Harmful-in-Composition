@@ -1,0 +1,7 @@
+[
+  {
+    "name": "doc-scraper",
+    "description": "Generic web scraper for extracting and organizing Snowflake documentation with intelligent caching and configurable spider depth. Scrapes any section of docs.snowflake.com controlled by --base-path.",
+    "path": "skills/doc-scraper"
+  }
+]

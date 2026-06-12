@@ -1,0 +1,7 @@
+[
+  {
+    "name": "spotify",
+    "description": "Control Spotify music playback, manage playlists, discover new music, and track listening history",
+    "path": "skills/spotify"
+  }
+]

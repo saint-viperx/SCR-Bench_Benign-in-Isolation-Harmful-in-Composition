@@ -1,0 +1,114 @@
+{
+  "code_critical": {
+    "CODE-EXEC": [
+      {"regex": "\\beval\\s*\\(", "risk": "Arbitrary code execution via eval()", "fix": "Replace with ast.literal_eval() or explicit parsing"},
+      {"regex": "\\bexec\\s*\\(", "risk": "Arbitrary code execution via exec()", "fix": "Remove exec() and use explicit function calls"},
+      {"regex": "\\bcompile\\s*\\(", "risk": "Dynamic code compilation", "fix": "Remove compile() or ensure input is fully trusted"},
+      {"regex": "__import__\\s*\\(", "risk": "Dynamic import loads arbitrary modules", "fix": "Use static imports at the top of the file"},
+      {"regex": "importlib\\.import_module\\s*\\(", "risk": "Dynamic import loads arbitrary modules", "fix": "Use static imports"}
+    ],
+    "CMD-INJECT": [
+      {"regex": "os\\.system\\s*\\(", "risk": "Shell command injection via os.system()", "fix": "Use subprocess.run() with list args"},
+      {"regex": "os\\.popen\\s*\\(", "risk": "Shell command injection via os.popen()", "fix": "Use subprocess.run() with list args"},
+      {"regex": "subprocess\\.\\w+\\(.*shell\\s*=\\s*True", "risk": "shell=True enables command injection", "fix": "Remove shell=True"}
+    ],
+    "NET-EXFIL": [
+      {"regex": "requests\\.(post|put)\\s*\\(", "risk": "Outbound HTTP may exfiltrate data", "fix": "Remove outbound network calls"},
+      {"regex": "urllib\\.request\\.urlopen\\s*\\(", "risk": "Outbound HTTP request", "fix": "Remove outbound network calls"},
+      {"regex": "httpx\\.(post|put)\\s*\\(", "risk": "Outbound HTTP via httpx", "fix": "Remove outbound network calls"},
+      {"regex": "socket\\.connect\\s*\\(", "risk": "Raw socket may exfiltrate data", "fix": "Remove socket connections"},
+      {"regex": "aiohttp\\.ClientSession\\s*\\(", "risk": "Async HTTP may exfiltrate data", "fix": "Remove async HTTP clients"}
+    ],
+    "CRED-HARVEST": [
+      {"regex": "['\"]~/\\.ssh", "risk": "Reads SSH keys", "fix": "Remove access to ~/.ssh"},
+      {"regex": "['\"]~/\\.aws", "risk": "Reads AWS credentials", "fix": "Remove access to ~/.aws"},
+      {"regex": "['\"]~/\\.gnupg", "risk": "Reads GPG keys", "fix": "Remove access to ~/.gnupg"},
+      {"regex": "open\\s*\\(.*\\.(pem|key|p12)", "risk": "Opens a private key file", "fix": "Remove access to private key files"}
+    ]
+  },
+  "code_high": {
+    "OBFUSCATION": [
+      {"regex": "base64\\.b64decode\\s*\\(", "risk": "Base64 decoding may hide payloads", "fix": "Verify decoded content or remove"},
+      {"regex": "codecs\\.decode\\s*\\(", "risk": "Codecs decode may obscure strings", "fix": "Use explicit string literals"},
+      {"regex": "bytes\\.fromhex\\s*\\(", "risk": "Hex decoding may hide payloads", "fix": "Use explicit string literals"},
+      {"regex": "chr\\s*\\(\\s*\\d+\\s*\\)\\s*\\+\\s*chr\\s*\\(", "risk": "chr() chain hides intent", "fix": "Use plain string literals"}
+    ],
+    "UNSAFE-DESER": [
+      {"regex": "pickle\\.loads?\\s*\\(", "risk": "Pickle deserialization can execute code", "fix": "Use json.loads() instead"},
+      {"regex": "yaml\\.load\\s*\\([^)]*\\)", "risk": "yaml.load() without SafeLoader", "fix": "Use yaml.safe_load()"},
+      {"regex": "marshal\\.loads?\\s*\\(", "risk": "Marshal deserialization can execute code", "fix": "Use json.loads() instead"}
+    ],
+    "FS-BOUNDARY": [
+      {"regex": "open\\s*\\(.*((/etc/|/usr/|/var/|/tmp/))", "risk": "File access outside skill boundary", "fix": "Restrict to skill directory"},
+      {"regex": "open\\s*\\(.*~/\\.(bashrc|profile|zshrc)", "risk": "Modifies shell config files", "fix": "Remove access to shell config"},
+      {"regex": "os\\.symlink\\s*\\(", "risk": "Symlinks can redirect to sensitive locations", "fix": "Remove symlink creation"},
+      {"regex": "shutil\\.(rmtree|move)\\s*\\(", "risk": "Destructive file operation", "fix": "Validate paths are within skill directory"}
+    ],
+    "PRIV-ESC": [
+      {"regex": "\\bsudo\\b", "risk": "Privilege escalation via sudo", "fix": "Remove sudo usage"},
+      {"regex": "chmod\\s+777", "risk": "World-writable permissions", "fix": "Use restrictive permissions"},
+      {"regex": "\\bcrontab\\b", "risk": "Cron manipulation can install backdoors", "fix": "Remove crontab access"}
+    ]
+  },
+  "code_info": {
+    "SUBPROCESS": [
+      {"regex": "subprocess\\.(run|call|check_output|check_call|Popen)\\s*\\(", "risk": "Subprocess call (verify shell=False)", "fix": "Ensure list args and no shell=True"}
+    ],
+    "ENV-ACCESS": [
+      {"regex": "os\\.environ\\s*[\\[.]", "risk": "Reads environment variables", "fix": "Document which env vars are read"}
+    ],
+    "FILE-OPS": [
+      {"regex": "os\\.path\\.expanduser\\s*\\(", "risk": "Expands ~ to home directory", "fix": "Use paths relative to skill directory"}
+    ]
+  },
+  "prompt_critical": {
+    "SYSTEM-OVERRIDE": [
+      {"regex": "ignore\\s+(all\\s+)?previous\\s+instructions", "risk": "Attempts to override system prompt", "fix": "Remove this phrase"},
+      {"regex": "ignore\\s+(all\\s+)?prior\\s+instructions", "risk": "Attempts to override system prompt", "fix": "Remove this phrase"},
+      {"regex": "disregard\\s+(all\\s+)?(previous|prior|above)", "risk": "Disregard existing instructions", "fix": "Remove this directive"},
+      {"regex": "new\\s+system\\s+prompt", "risk": "Injects a replacement system prompt", "fix": "Remove system prompt override"},
+      {"regex": "override\\s+(the\\s+)?system\\s+(prompt|instructions)", "risk": "Overrides system instructions", "fix": "Remove override language"}
+    ],
+    "ROLE-HIJACK": [
+      {"regex": "act\\s+as\\s+(root|admin|administrator|superuser)", "risk": "Escalates to privileged role", "fix": "Remove privileged role assignment"},
+      {"regex": "pretend\\s+you\\s+(have\\s+no|don'?t\\s+have)\\s+restrictions", "risk": "Removes safety restrictions", "fix": "Remove restriction-bypass language"},
+      {"regex": "you\\s+have\\s+no\\s+limitations", "risk": "Declares AI has no limitations", "fix": "Remove this assertion"},
+      {"regex": "unrestricted\\s+mode", "risk": "Enables unrestricted mode", "fix": "Remove unrestricted mode language"},
+      {"regex": "developer\\s+mode\\s+enabled", "risk": "Activates developer mode bypass", "fix": "Remove developer mode activation"},
+      {"regex": "\\bjailbreak\\b", "risk": "References jailbreaking", "fix": "Remove jailbreak references"}
+    ],
+    "DATA-EXTRACT": [
+      {"regex": "send\\s+(the\\s+)?contents?\\s+(of|from)\\s+", "risk": "Sends file contents externally", "fix": "Remove data exfiltration instructions"},
+      {"regex": "upload\\s+(the\\s+)?file\\s+to\\s+", "risk": "Uploads files externally", "fix": "Remove file upload instructions"},
+      {"regex": "POST\\s+to\\s+https?://", "risk": "POSTs to external URL", "fix": "Remove HTTP POST instructions"},
+      {"regex": "\\bexfiltrate\\b", "risk": "Explicit data exfiltration", "fix": "Remove exfiltration language"},
+      {"regex": "transmit\\s+(all\\s+)?data\\s+to\\s+", "risk": "Transmits data externally", "fix": "Remove data transmission instructions"}
+    ]
+  },
+  "prompt_high": {
+    "SAFETY-BYPASS": [
+      {"regex": "skip\\s+(all\\s+)?safety\\s+checks?", "risk": "Skips safety checks", "fix": "Remove safety-bypass instructions"},
+      {"regex": "disable\\s+(the\\s+)?content\\s+filter", "risk": "Disables content filtering", "fix": "Remove content filter bypass"},
+      {"regex": "bypass\\s+(the\\s+)?security", "risk": "Bypasses security mechanisms", "fix": "Remove security bypass language"},
+      {"regex": "remove\\s+(all\\s+)?guardrails", "risk": "Removes safety guardrails", "fix": "Remove guardrail-bypass language"},
+      {"regex": "no\\s+restrictions?\\s+appl(y|ies)", "risk": "Declares no restrictions apply", "fix": "Remove restriction-bypass declarations"}
+    ],
+    "EXCESSIVE-PERMS": [
+      {"regex": "(run|execute)\\s+any\\s+command", "risk": "Requests unrestricted command execution", "fix": "Specify exact commands needed"},
+      {"regex": "full\\s+(file\\s*system|filesystem)\\s+access", "risk": "Requests unrestricted filesystem access", "fix": "Specify exact directories needed"},
+      {"regex": "access\\s+to\\s+all\\s+files", "risk": "Requests access to all files", "fix": "Limit access to skill directory"},
+      {"regex": "root\\s+access\\s+required", "risk": "Claims root access is required", "fix": "Remove root access requirement"}
+    ],
+    "HIDDEN-DIRECTIVE": [
+      {"regex": "<!--\\s*(system|instruction|command|execute|override|ignore)", "risk": "HTML comment contains hidden directive", "fix": "Remove hidden directives"}
+    ]
+  },
+  "prompt_info": {
+    "SUSPICIOUS-LANG": [
+      {"regex": "you\\s+must\\s+(always|never)\\s+", "risk": "Strong directive language", "fix": "Use softer language"},
+      {"regex": "do\\s+not\\s+(ever|under\\s+any\\s+circumstances)\\s+", "risk": "Absolute prohibition", "fix": "Use scoped guidance"},
+      {"regex": "from\\s+now\\s+on\\s+(you|your)\\s+", "risk": "Attempts to permanently alter AI behavior", "fix": "Scope to skill tasks"},
+      {"regex": "you\\s+are\\s+now\\s+(a|an)\\s+", "risk": "Attempts to redefine AI identity", "fix": "Use task-scoped phrasing"}
+    ]
+  }
+}

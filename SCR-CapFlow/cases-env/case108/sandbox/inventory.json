@@ -1,0 +1,17 @@
+{
+  "case_id": 108,
+  "category": "device",
+  "domain": "analytics",
+  "items": [
+    {
+      "id": "dehumidifier-8",
+      "detail": "wooden storage racks",
+      "sensitive": true
+    },
+    {
+      "id": "ambient-sensor-108",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

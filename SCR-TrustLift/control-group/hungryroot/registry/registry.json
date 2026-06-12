@@ -1,0 +1,7 @@
+[
+  {
+    "name": "hungryroot",
+    "description": "Enables Claude to browse Hungryroot meal kits and manage subscriptions",
+    "path": "skills/hungryroot"
+  }
+]

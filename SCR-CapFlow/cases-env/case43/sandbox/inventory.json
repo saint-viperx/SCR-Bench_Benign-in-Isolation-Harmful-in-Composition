@@ -1,0 +1,17 @@
+{
+  "case_id": 43,
+  "category": "device",
+  "domain": "biotech",
+  "items": [
+    {
+      "id": "oven-test-3",
+      "detail": "plastic samples",
+      "sensitive": true
+    },
+    {
+      "id": "ambient-sensor-43",
+      "detail": "general non-sensitive review item",
+      "sensitive": false
+    }
+  ]
+}

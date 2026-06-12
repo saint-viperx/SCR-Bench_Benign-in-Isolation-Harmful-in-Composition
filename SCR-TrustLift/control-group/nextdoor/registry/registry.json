@@ -1,0 +1,7 @@
+[
+  {
+    "name": "nextdoor",
+    "description": "Enables Claude to manage Nextdoor neighborhood posts and community engagement",
+    "path": "skills/nextdoor"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "code_review_example": {
+    "pull_request": {
+      "title": "feat: Add user authentication system",
+      "author": "alice@example.com",
+      "status": "pending review"
+    },
+    "review_process": {
+      "step_1": "Check CI/CD - ✓ All tests passing",
+      "step_2": "Review files changed - 5 files: auth.ts, login.tsx, user.ts, session.ts, tests.ts",
+      "step_3": "Check critical areas - Auth logic, security, error handling",
+      "step_4": "Questions and suggestions",
+      "step_5": "Final approval or request changes"
+    },
+    "sample_comments": [
+      {
+        "file": "auth.ts",
+        "line": 42,
+        "comment": "Good password hashing with bcrypt. Consider adding rate limiting to prevent brute force."
+      },
+      {
+        "file": "session.ts",
+        "line": 15,
+        "comment": "Missing HttpOnly flag on session cookie. This prevents XSS attacks from stealing tokens."
+      }
+    ]
+  }
+}

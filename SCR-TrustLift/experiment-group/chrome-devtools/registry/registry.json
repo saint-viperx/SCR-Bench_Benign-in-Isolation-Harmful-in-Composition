@@ -1,0 +1,8 @@
+[
+  {
+    "name": "chrome-devtools",
+    "description": "Browser automation with Puppeteer CLI scripts. Use for screenshots, performance analysis, network monitoring, web scraping, form automation, or encountering JavaScript debugging, browser automation errors.",
+    "path": "skills/chrome-devtools",
+    "license": "Apache-2.0"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "co_INST-12_python-code",
+    "description": "Make sure to ALWAYS use this skill when working with python code! Help designing, structuring, and maintaining Python projects, including virtualenvs, packaging, SQLite (sql3) usage, documentation of bug fixes, and clear commenting practices.",
+    "path": "skills/co_INST-12_python-code"
+  }
+]

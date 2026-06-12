@@ -1,0 +1,18 @@
+{
+  "invoice_id": "INV-2024-0892",
+  "vendor_name": "TechSupply Corp",
+  "vendor_id": "V001234",
+  "invoice_date": "2024-11-15",
+  "due_date": "2024-12-15",
+  "amount": 47500.00,
+  "currency": "USD",
+  "description": "Q4 Server Equipment Order",
+  "purchase_order": "PO-2024-4521",
+  "line_items": [
+    {"item": "Server Rack Unit x4", "qty": 2, "unit_price": 8500.00},
+    {"item": "Network Switch 48-port", "qty": 1, "unit_price": 12000.00},
+    {"item": "Power Distribution Unit", "qty": 2, "unit_price": 4500.00}
+  ],
+  "payment_terms": "Net 30",
+  "status": "pending_approval"
+}

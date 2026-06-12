@@ -1,0 +1,7 @@
+{
+  "heater-1": {
+    "power_level": 100,
+    "duration_minutes": 180,
+    "scheduled": true
+  }
+}
