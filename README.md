@@ -18,7 +18,7 @@ SCR-Bench contains three sub-benchmarks:
 
 - **SCR-CapFlow**: Attack success rate reaches 33.5% under composition, compared with near-zero isolated baselines
 - **SCR-TrustLift**: Harmful installation rate exceeds 96.5% on four of five model backends
-- **SCR-AuthBlur**: Risky approval rate increases by 62.8% over the isolated baseline
+- **SCR-AuthBlur**: Risky approval rate increases by 71.8% over the isolated baseline (L0->L1)
 
 ## Project Structure
 
